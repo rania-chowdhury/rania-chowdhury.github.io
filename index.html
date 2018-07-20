@@ -6,23 +6,42 @@
         </title>
     </head>
     <body>
-        <h1>
-            Welcome to my page!
-        </h1>
-        <h2>
-            My name is Rania.
-        </h2>
-        <h3>
-            I hope you like it here!
-        </h3>
-        <p>
-            This is my paragraph
-            <font color="purple">Racoons are adorable!</font>
-            <b>Bold text</b>
-            <i>Italic text</i>
-            <u>Underlined text</u>
-            <sub>Subscript text</sub>
-            <sup>Superscript text</sup>
-        </p>
+        <!-- Tab Link -->
+        <div class="tab">
+            <button class="tabLinks" onclick="openTab(event, 'Main Site')">Main Site</button>
+            <button class="tabLinks" onclick="openTab(event, 'Credentials')">Credentials</button>
+            <button class="tabLinks" onclick="openTab(event, 'Resume')">Resume</button>
+            <button class="tabLinks" onclick="openTab(event, 'Projects')">Projects</button>
+        </div>
+        <!-- Tab Content -->
+        <div id="Main Site" class="tabcontent">
+            <h1>
+                Welcome to my page!
+            </h1>
+            <h2>
+                My name is Rania.
+            </h2>
+            <h3>
+                I hope you like it here!
+            </h3>
+            <p>
+                This is my paragraph
+                <font color="purple">Racoons are adorable!</font>
+                <b>Bold text</b>
+                <i>Italic text</i>
+                <u>Underlined text</u>
+                <sub>Subscript text</sub>
+                <sup>Superscript text</sup>
+            </p>
+        </div>
+        <div id="Credentials" class="tabcontent">
+
+        </div>
+        <div id="Resume" class="tabcontent">
+
+        </div>
+        <div id="Projects" class="tabcontent">
+
+        </div>
     </body>
 </html>
