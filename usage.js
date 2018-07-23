@@ -15,6 +15,7 @@ function openTab(tabName, element, color) {
     document.getElementById(tabName).style.display = "block";
     // add specific color to button used to open tab content
     element.style.backgroundColor = color;
+    openPage(MainContent, element, 'red');
 }
 function openPage(pageName, element, color) {
     // declare all variables
