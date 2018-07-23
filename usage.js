@@ -1,4 +1,4 @@
-function openTab(tabName, element, color) {
+function openTab(tabName, pageName, element, color) {
     // declare all variables
     var i, tabcontent, tablinks, pagecontent;
     // Get all elements with class="tabcontent" and hide them
@@ -11,20 +11,17 @@ function openTab(tabName, element, color) {
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].style.backgroundColor = "";
     }
-    // show specific tab content
-    document.getElementById(tabName).style.display = "block";
-    // add specific color to button used to open tab content
-    element.style.backgroundColor = color;
-}
-function openPage(pageName){
-    var i, tabcontent
-    // hide all elements with class="content" by default
-    tabcontent = document.getElementsByClassName("content");
+    // get all elements with class="content" and hide them
+    pagecontent = document.getElementsByClassName("content");
     for(i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none"
     }
     // show specific tab content
+    document.getElementById(tabName).style.display = "block";
+    // show specific page content
     document.getElementById(pageName).style.display = "block";
+    // add specific color to button used to open tab content
+    element.style.backgroundColor = color;
 }
 // get element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
