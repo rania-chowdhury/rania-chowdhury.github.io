@@ -17,4 +17,4 @@ function openTab(tabName, element, color) {
     element.style.backgroundColor = color;
 }
 // get element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+// document.getElementById("defaultOpen").click();
