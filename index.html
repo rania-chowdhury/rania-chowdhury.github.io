@@ -13,6 +13,12 @@
             <button class="tabLinks" onclick="openTab(event, 'Resume')">Resume</button>
             <button class="tabLinks" onclick="openTab(event, 'Projects')">Projects</button>
         </div>
+        <!-- default to one specific tab -->
+        <button class="tablinks" onclick="openCity(event, 'Main Site')" id="defaultOpen">Main Site</button>
+        <script>
+            // get element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click()
+        </script>
         <!-- Tab Content -->
         <div id="Main Site" class="tabcontent">
             <h1>
