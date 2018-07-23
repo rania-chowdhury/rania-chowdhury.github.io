@@ -6,6 +6,11 @@
         </title>
         <link rel="stylesheet" href="styling.css">
         <script type="text/javascript" src="usage.js"></script>
+        <!-- default to one specific tab -->
+        <script>
+            // get element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click()
+        </script>
     </head>
     <body>
         <!-- Tab Link -->
@@ -15,27 +20,26 @@
             <button class="tabLinks" onclick="openTab(event, 'Resume')">Resume</button>
             <button class="tabLinks" onclick="openTab(event, 'Projects')">Projects</button>
         </div>
-        <!-- default to one specific tab -->
-        <script>
-            // get element with id="defaultOpen" and click on it
-            document.getElementById("defaultOpen").click()
-        </script>
         <!-- Tab Content -->
         <div id="Main Site" class="tabcontent">
             <h3>Main Site</h3>
             <p>This is the main site</p>
+            <span onclick="this.parentElement.style.display='none'"></span>
         </div>
         <div id="Credentials" class="tabcontent">
             <h3>Credentials</h3>
             <p>These are my credentials</p>
+            <span onclick="this.parentElement.style.display='none'"></span>
         </div>
         <div id="Resume" class="tabcontent">
             <h3>Resume</h3>
             <p>This is my resume</p>
+            <span onclick="this.parentElement.style.display='none'"></span>
         </div>
         <div id="Projects" class="tabcontent">
             <h3>Projects</h3>
             <p>These are my projects</p>
+            <span onclick="this.parentElement.style.display='none'"></span>
         </div>
     </body>
 </html>
