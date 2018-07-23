@@ -1,19 +1,20 @@
-// get element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click()
-function openTab(event, tabName) {
+function openTab(tabName, element, color) {
     // declare all variables
-    var i, tabcontent, tablinks;
+    var i, tabcontent, tablink;
     // Get all elements with class="tabcontent" and hide them
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
-    // get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
+    // remove the background color of all tablinks/buttons
+    tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
+        tablinks[i].style.backgroundColor = "";
     }
-    // show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(tabName).style.display = "block";
-    event.currentTarget.className += " active";
+    // show specific tab content
+    document.getElementsByClassName(tabName).style.display = "block";
+    // add specific color to button used to open tab content
+    element.style.backgroundColor = color;
 }
+// get element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click()

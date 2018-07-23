@@ -9,13 +9,6 @@
         <!-- default to one specific tab -->
     </head>
     <body>
-        <!-- Tab Link -->
-        <div class="tab">
-            <button class="tablinks" onclick="openTab(event, 'Main Site')" id="defaultOpen">Main Site</button>
-            <button class="tabLinks" onclick="openTab(event, 'Credentials')">Credentials</button>
-            <button class="tabLinks" onclick="openTab(event, 'Resume')">Resume</button>
-            <button class="tabLinks" onclick="openTab(event, 'Projects')">Projects</button>
-        </div>
         <!-- Tab Content -->
         <div id="Main Site" class="tabcontent">
             <h3>Main Site</h3>
@@ -33,5 +26,10 @@
             <h3>Projects</h3>
             <p>These are my projects</p>
         </div>
+        <!-- Tab Link -->
+        <button class="tablink" onclick="openTab(event, 'Main Site')" id="defaultOpen">Main Site</button>
+        <button class="tablink" onclick="openTab(event, 'Credentials')">Credentials</button>
+        <button class="tablink" onclick="openTab(event, 'Resume')">Resume</button>
+        <button class="tablink" onclick="openTab(event, 'Projects')">Projects</button>
     </body>
 </html>
