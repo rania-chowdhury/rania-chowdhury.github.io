@@ -1,6 +1,6 @@
-function openTab(tabName, pageName, element, color) {
+function openTab(tabName, element, color) {
     // declare all variables
-    var i, tabcontent, tablinks, pagecontent;
+    var i, tabcontent, tablinks;
     // Get all elements with class="tabcontent" and hide them
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
