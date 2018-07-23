@@ -1,4 +1,3 @@
-body {font-family: "Lato", sans-serif;}
 /* style the tab content */
 .tablink {
     background-color: #555;
@@ -19,13 +18,13 @@ body {font-family: "Lato", sans-serif;}
     display: none;
     padding: 50px;
     text-align: center;
-    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+    /* animation: fadeEffect 1s; Fading effect takes 1 second */
 }
 /* go from zero to full opacity */
-@keyframes fadeEffect {
+/*@keyframes fadeEffect {
     from {opacity: 0;}
     to {opacity: 1;}
-}
+}*/
 /* style each tab content individually */
 #Main Site {background-color:red;}
 #Credentials {background-color:green;}
