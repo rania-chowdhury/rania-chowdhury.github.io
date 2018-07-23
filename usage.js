@@ -12,9 +12,9 @@ function openTab(tabName, element, color) {
         tablinks[i].style.backgroundColor = "";
     }
     // show specific tab content
-    document.getElementsByClassName(tabName).style.display = "block";
+    document.getElementById(tabName).style.display = "block";
     // add specific color to button used to open tab content
     element.style.backgroundColor = color;
 }
 // get element with id="defaultOpen" and click on it
-// document.getElementById("defaultOpen").click();
+document.getElementById("defaultOpen").click();
