@@ -21,21 +21,7 @@ function openTab(tabName, pageName, element, color) {
     for (i = 0; i < pagecontent.length; i++) {
         pagecontent[i].style.display = "none"
     }
-    // show specific page content
-    document.getElementById(pageName).style.display = "block";
     // add specific color to button used to open tab content
     element.style.fontColor = color;
 }
-/* function openPage(pageName) {
-    // get all elements with class="content" and hide them
-
-    var element = document.getElementById(pageName);
-    if (element.style.display === "none") {
-        element.style.display = "block";
-    }
-    else {
-        element.style.display = "none";
-    }
-} */
-// get element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
