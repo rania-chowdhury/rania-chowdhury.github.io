@@ -7,9 +7,9 @@ function openTab(tabName, element, color) {
         tabcontent[i].style.display = "none";
     }
     // remove the background color of all tablinks/buttons
-    tablinks = document.getElementsByClassName("tablink");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].style.backgroundColor = "";
+    tablink = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablink.length; i++) {
+        tablink[i].style.backgroundColor = "";
     }
     // show specific tab content
     document.getElementsByClassName(tabName).style.display = "block";

@@ -1,12 +1,5 @@
-/* Style the tab */
+body {font-family: "Lato", sans-serif;}
 /* style the tab content */
-.tabcontent {
-    color: white;
-    display: none;
-    padding: 50px;
-    text-align: center;
-    animation: fadeEffect 1s; /* Fading effect takes 1 second */
-}
 .tablink {
     background-color: #555;
     color: white;
@@ -21,13 +14,20 @@
 .tablink:hover {
     background-color: #777;
 }
-/* go from zero to full opacity */
-@keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
+/* go from zero to full opacity */
 /* style each tab content individually */
 #Main Site {background-color:red;}
 #Credentials {background-color:green;}
 #Resume {background-color:blue;}
 #Projects {background:orange;}
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
