@@ -16,5 +16,15 @@ function openTab(tabName, element, color) {
     // add specific color to button used to open tab content
     element.style.backgroundColor = color;
 }
+function openPage(pageName, element, color){
+    var i, tabcontent, tablinks
+    // hide all elements with class="content" by default
+    tabcontent = document.getElementsByClassName("content");
+    for(i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none"
+    }
+    // show specific tab content
+    document.getElementById(pageName).style.display = "block";
+}
 // get element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();

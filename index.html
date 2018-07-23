@@ -25,10 +25,32 @@
             <h3>Projects</h3>
             <p>These are my projects</p>
         </div>
+        <div id="MainContent" class="content">
+            <h3>Main Content</h3>
+            <p>This is where the main content goes</p>
+        </div>
+        <div id="CredentialsContent" class="content">
+            <h3>Credentials Content</h3>
+            <p>This is where the credentials content goes</p>
+        </div>
+        <div id="ResumeContent" class="content">
+            <h3>Resume Content</h3>
+            <p>This is where the resume content goes</p>
+        </div>
+        <div id="ProjectsContent" class="content">
+            <h3>Projects Content</h3>
+            <p>This is where the projects content goes</p>
+        </div>
         <!-- Tab Link -->
+            <!-- Tabs -->
         <button class="tablink" onclick="openTab('Main', this, 'red')" id="defaultOpen">Main</button>
         <button class="tablink" onclick="openTab('Credentials', this, 'green')">Credentials</button>
         <button class="tablink" onclick="openTab('Resume', this, 'blue')">Resume</button>
         <button class="tablink" onclick="openTab('Projects', this, 'orange')">Projects</button>
+            <!-- Content -->
+        <button class="tablink" onclick="openPage('MainContent', this, 'white')"></button>
+        <button class="tablink" onclick="openPage('CredentialsContent', this, 'white')"></button>
+        <button class="tablink" onclick="openPage('ResumeContent', this, 'white')"></button>
+        <button class="tablink" onclick="openPage('ProjectsContent', this, 'white')"></button>
     </body>
 </html>

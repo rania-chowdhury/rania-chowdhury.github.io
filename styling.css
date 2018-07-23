@@ -19,6 +19,18 @@
     padding: 50px;
     text-align: center;
 }
+/* style content*/
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial;
+}
+.content {
+    color: black;
+    display: none;
+    padding: 100px 20px;
+    height: 100%
+}
 #Main {background-color:red;}
 #Credentials {background-color:green;}
 #Resume {background-color:blue;}
