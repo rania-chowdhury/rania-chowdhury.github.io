@@ -1,10 +1,10 @@
 function openTab(tabName, pageName, element, color) {
     // declare all variables
-    var i, tabcontent, tablinks, pagecontent;
-    // Get all elements with class="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
+    var i, tabs, tablinks, pagecontent;
+    // Get all elements with class="tabs" and hide them
+    tabs = document.getElementsByClassName("tabs");
+    for (i = 0; i < tabs.length; i++) {
+        tabs[i].style.display = "none";
     }
     // remove the background color of all tablinks/buttons
     tablinks = document.getElementsByClassName("tablink");
@@ -21,6 +21,8 @@ function openTab(tabName, pageName, element, color) {
     for (i = 0; i < pagecontent.length; i++) {
         pagecontent[i].style.display = "none"
     }
+    // show specific page content
+    document.getElementById(pageName).style.display = "block";
     // add specific color to button used to open tab content
     element.style.fontColor = color;
 }

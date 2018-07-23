@@ -13,7 +13,7 @@
 .tablink:hover {
     background-color: #777;
 }
-.tabcontent {
+.tabs {
     color: white;
     display: none;
     padding: 50px;
