@@ -18,15 +18,8 @@
     display: none;
     padding: 50px;
     text-align: center;
-    /* animation: fadeEffect 1s; Fading effect takes 1 second */
 }
-/* go from zero to full opacity */
-/*@keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
-}*/
-/* style each tab content individually */
-#Main Site {background-color:red;}
+#Main {background-color:red;}
 #Credentials {background-color:green;}
 #Resume {background-color:blue;}
 #Projects {background:orange;}
