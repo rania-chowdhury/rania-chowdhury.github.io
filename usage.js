@@ -1,6 +1,6 @@
 function openTab(tabName, element, color) {
     // declare all variables
-    var i, tabcontent, tablinks;
+    var i, tabcontent, tablinks, pagecontent;
     // Get all elements with class="tabcontent" and hide them
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
@@ -16,8 +16,8 @@ function openTab(tabName, element, color) {
     // add specific color to button used to open tab content
     element.style.backgroundColor = color;
 }
-function openPage(pageName, element, color){
-    var i, tabcontent, tablinks
+function openPage(pageName){
+    var i, tabcontent
     // hide all elements with class="content" by default
     tabcontent = document.getElementsByClassName("content");
     for(i = 0; i < tabcontent.length; i++) {
