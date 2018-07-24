@@ -43,6 +43,9 @@ showSlide(slideIndex);
 function shiftSlide(n) {
     showSlide(slideIndex += n);
 }
+function currentSlide(n) {
+    showSlide(slideIndex = n);
+}
 function showSlide(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides")
