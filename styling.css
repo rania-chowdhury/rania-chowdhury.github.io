@@ -20,11 +20,11 @@
     text-align: center;
 }
 
-body, html {
+/* body, html {
     height: 100%;
     margin: 0;
     font-family: Arial;
-}
+} */
 .contentlink {
     background-color: #555;
     color: white;
