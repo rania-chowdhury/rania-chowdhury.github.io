@@ -1,31 +1,10 @@
 /* style the tab content */
-.tablink {
-    background-color: #555;
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 17px;
-    width: 25%;
-}
-.tablink:hover {
-    background-color: #777;
-}
-.tabcontent {
-    color: white;
-    display: none;
-    padding: 50px;
-    text-align: center;
-}
-
-/* body, html {
+body, html {
     height: 100%;
     margin: 0;
     font-family: Arial;
-} */
-.contentlink {
+}
+.tablink {
     background-color: #555;
     color: white;
     float: left;
@@ -36,21 +15,16 @@
     font-size: 17px;
     width: 25%;  
 }
-.contentlink:hover {
+.tablink:hover {
     background-color: #777;
 }
-.content {
+.tabcontent {
     color: white;
     display: none;
     padding: 100px 20px;
     height: 100%;
 }
-#Main {background-color:red;}
-#Credentials {background-color:green;}
-#Resume {background-color:blue;}
-#Projects {background-color:orange;}
-
-#MainContent {color:red;}
-#CredentialsContent {color:green;}
-#ResumeContent {color:blue;}
-#ProjectsContent {color:orange;}
+#MainContent {background-color:red;}
+#CredentialsContent {background-color:green;}
+#ResumeContent {background-color:blue;}
+#ProjectsContent {background-color:orange;}
