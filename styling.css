@@ -45,12 +45,12 @@ body, html {
     padding: 100px 20px;
     height: 100%;
 }
-#Main {background-color:red;}
-#Credentials {background-color:green;}
-#Resume {background-color:blue;}
-#Projects {background-color:orange;}
+#Main {background-color:brown;}
+#Credentials {background-color:forestgreen;}
+#Resume {background-color:darkcyan;}
+#Projects {background-color:orangered;}
 
-#MainContent {color:red;}
-#CredentialsContent {color:green;}
-#ResumeContent {color:blue;}
-#ProjectsContent {color:orange;}
+#MainContent {color:brown;}
+#CredentialsContent {color:forestgreen;}
+#ResumeContent {color:darkcyan;}
+#ProjectsContent {color:orangered;}
