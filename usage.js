@@ -1,3 +1,4 @@
+document.getElementById("defaultOpen").click();
 function openTab(tabName, element, color) {
     // declare all variables
     var i, tabcontent, tablinks;
@@ -34,8 +35,6 @@ function openPage(pageName, element, color) {
     // add specific color to button used to open tab content
     element.style.backgroundColor = color;
 }
-document.getElementById("defaultOpen").click();
-
 // slideshow logic
 var slideIndex = 1;
 showSlide(slideIndex);
