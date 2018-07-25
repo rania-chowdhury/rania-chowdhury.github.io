@@ -1,10 +1,4 @@
-window.onload = function() {
-    startTab();
-};
-
-function startTab() {
-    document.getElementsByClassName("defaultOpen").click()
-}
+document.getElementById("defaultOpen").click();
 
 function openTab(tabName, element, color) {
     // declare all variables
