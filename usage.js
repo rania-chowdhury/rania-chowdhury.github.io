@@ -1,3 +1,11 @@
+window.onload = function() {
+    startTab();
+};
+
+function startTab() {
+    document.getElementsByClassName("defaultOpen").click()
+}
+
 function openTab(tabName, element, color) {
     // declare all variables
     var i, tabcontent, tablinks;
@@ -16,7 +24,7 @@ function openTab(tabName, element, color) {
     // add specific color to button used to open tab content
     element.style.backgroundColor = color;
 }
-document.getElementsByClassName("defaultOpen").click()
+
 function openPage(pageName, element, color) {
     // declare all variables
     var i, tabcontent, tablinks;
@@ -35,6 +43,7 @@ function openPage(pageName, element, color) {
     // add specific color to button used to open tab content
     element.style.backgroundColor = color;
 }
+
 // slideshow logic
 var slideIndex = 1;
 showSlide(slideIndex);
