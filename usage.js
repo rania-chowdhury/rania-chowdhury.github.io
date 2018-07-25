@@ -1,5 +1,4 @@
 document.getElementById("defaultOpen").click();
-
 function openTab(tabName, element, color) {
     // declare all variables
     var i, tabcontent, tablinks;
