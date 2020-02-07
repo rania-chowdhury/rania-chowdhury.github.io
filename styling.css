@@ -1,8 +1,9 @@
 
 /* style for both */
-body {
-    font-family: "Nunito", sans-serif !important;
-    color: #9D695A !important;
+@font-face {
+    font-family: "Nunito", san-serif;
+    src: url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+    color: #9D695A;
 }
 
 .navbar-toggle .icon-bar {
