@@ -52,6 +52,8 @@ hr {
 .intro {
     background-color: #EADEDA;
     border-radius: 25px;
+    padding: 10px;
+    display: flex;
 }
 
 /* styles for mobile */
