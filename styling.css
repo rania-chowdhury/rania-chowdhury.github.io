@@ -18,10 +18,14 @@ body {
     color: #9D695A;
 }
 
-.icon-bar {
+.navbar-toggle .icon-bar {
     color: #9D695A;
 }
 
-nav a {
-    color: #9D695A !important;
+a {
+    color: #9D695A;
+}
+
+a:focus, a:hover {
+    color: #9D695A;
 }
