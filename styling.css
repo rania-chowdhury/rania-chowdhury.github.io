@@ -13,6 +13,9 @@
 }
 
 /* style for both */
+.body {
+    font-family: 'Nunito', sans-serif;
+}
 .icon-bar {
     color: #9D695A;
 }
