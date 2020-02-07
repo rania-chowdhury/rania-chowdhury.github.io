@@ -41,6 +41,10 @@ hr {
     border: 4px solid #F4E8C1;
 }
 
+.content {
+    margin: 20px;
+}
+
 /* styles for mobile */
 @media only screen and (max-width: 500px) {
     nav {
