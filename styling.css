@@ -5,12 +5,11 @@
     src: url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 }
 
-.navbar-toggle .icon-bar {
+a, p, h1, h2, h3 {
     color: #9D695A;
 }
-
-a {
-    color: #9D695A;
+.navbar-toggle .icon-bar {
+    background-color: #9D695A;
 }
 
 a:focus, a:hover {
