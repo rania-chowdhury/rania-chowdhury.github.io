@@ -8,6 +8,7 @@
 a, p, h1, h2, h3 {
     color: #9D695A;
 }
+
 .navbar-toggle .icon-bar {
     background-color: #9D695A;
 }
@@ -16,15 +17,19 @@ a:focus, a:hover {
     color: #9D695A;
 }
 
+hr {
+    margin: 6px;
+}
+
 .line-1 {
-    border: 6px solid #6EB4D1;
+    border: 4px solid #6EB4D1;
 }
 
 .line-2 {
-    border: 6px solid #FFB4A2;
+    border: 4px solid #FFB4A2;
 }
 .line-3 {
-    border: 6px solid #F4E8C1;
+    border: 4px solid #F4E8C1;
 }
 
 /* styles for mobile */
