@@ -14,8 +14,10 @@
 
 /* style for both */
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: "Nunito", sans-serif;
+    color: #9D695A;
 }
+
 .icon-bar {
     color: #9D695A;
 }
