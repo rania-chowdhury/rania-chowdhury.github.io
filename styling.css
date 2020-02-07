@@ -1,20 +1,24 @@
 
 /* style for both */
 body {
-    font-family: "Nunito", sans-serif;
-    color: #9D695A;
+    font-family: "Nunito", sans-serif !important;
+    color: #9D695A !important;
 }
 
 .navbar-toggle .icon-bar {
-    color: #9D695A;
+    color: #9D695A !important;
 }
 
 a {
-    color: #9D695A;
+    color: #9D695A !important;
 }
 
 a:focus, a:hover {
-    color: #9D695A;
+    color: #9D695A !important;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+
 }
 
 /* styles for mobile */
