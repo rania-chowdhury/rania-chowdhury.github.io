@@ -3,23 +3,18 @@
 @font-face {
     font-family: "Nunito", san-serif;
     src: url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
-    color: #9D695A;
 }
 
 .navbar-toggle .icon-bar {
-    color: #9D695A !important;
+    color: #9D695A;
 }
 
 a {
-    color: #9D695A !important;
+    color: #9D695A;
 }
 
 a:focus, a:hover {
-    color: #9D695A !important;
-}
-
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-
+    color: #9D695A;
 }
 
 /* styles for mobile */
